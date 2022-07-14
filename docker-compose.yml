@@ -1,0 +1,7 @@
+version: "0.1"
+
+services:
+  myservice:
+    build: ./
+    ports:
+      - 8080:8080
